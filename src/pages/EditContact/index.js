@@ -1,7 +1,9 @@
+import { PageHeader } from "../../components/PageHeader";
+
 export function EditContact() {
   return (
     <div>
-      <h1>EditContact</h1>
+      <PageHeader title="Editar Luciano Brandão" />
     </div>
   );
 }
