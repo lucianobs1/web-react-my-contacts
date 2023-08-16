@@ -15,7 +15,7 @@ export function Home() {
     <Container>
       <Header>
         <strong>3 contatos</strong>
-        <a href="/">Novo contato</a>
+        <a href="new">Novo contato</a>
       </Header>
 
       <InputSearchContainer>
@@ -43,49 +43,7 @@ export function Home() {
         </div>
 
         <div className="actions">
-          <a href="/">
-            <img src={Edit} alt="Edit" />
-          </a>
-          <button type="button">
-            <img src={Trash} alt="Delete" />
-          </button>
-        </div>
-      </Card>
-
-      <Card>
-        <div className="info">
-          <div className="contact-name">
-            <strong>Luciano Brandão</strong>
-            <small>Instagram</small>
-          </div>
-
-          <span>luciano@contact.com</span>
-          <span>(11) 98888-0000</span>
-        </div>
-
-        <div className="actions">
-          <a href="/">
-            <img src={Edit} alt="Edit" />
-          </a>
-          <button type="button">
-            <img src={Trash} alt="Delete" />
-          </button>
-        </div>
-      </Card>
-
-      <Card>
-        <div className="info">
-          <div className="contact-name">
-            <strong>Luciano Brandão</strong>
-            <small>Instagram</small>
-          </div>
-
-          <span>luciano@contact.com</span>
-          <span>(11) 98888-0000</span>
-        </div>
-
-        <div className="actions">
-          <a href="/">
+          <a href="edit/123">
             <img src={Edit} alt="Edit" />
           </a>
           <button type="button">
